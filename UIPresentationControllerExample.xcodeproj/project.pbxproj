@@ -56,15 +56,31 @@
 		8E3773682417E2620007CB82 /* UIPresentationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				8EE5172A2417EA18003FE175 /* UIParts */,
+				8EE517292417EA0F003FE175 /* ViewController */,
 				8E3773692417E2620007CB82 /* AppDelegate.swift */,
 				8E37736B2417E2620007CB82 /* SceneDelegate.swift */,
-				8E37736D2417E2620007CB82 /* ViewController.swift */,
-				8E37736F2417E2620007CB82 /* Main.storyboard */,
 				8E3773722417E2640007CB82 /* Assets.xcassets */,
-				8E3773742417E2640007CB82 /* LaunchScreen.storyboard */,
 				8E3773772417E2640007CB82 /* Info.plist */,
 			);
 			path = UIPresentationControllerExample;
+			sourceTree = "<group>";
+		};
+		8EE517292417EA0F003FE175 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E37736D2417E2620007CB82 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8EE5172A2417EA18003FE175 /* UIParts */ = {
+			isa = PBXGroup;
+			children = (
+				8E37736F2417E2620007CB82 /* Main.storyboard */,
+				8E3773742417E2640007CB82 /* LaunchScreen.storyboard */,
+			);
+			path = UIParts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
